@@ -218,7 +218,7 @@ p {
 /*Colophon Adjustment for XS Screens*/
 @media (max-width:767px){
   .contact {
-    margin-left:25%;
+    margin-left:15%;
   }
 
   .social{
