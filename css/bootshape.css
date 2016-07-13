@@ -11,6 +11,13 @@ p {
   margin: 0 0 20px;
 }
 
+hr {
+  border-width:4px;
+  width:80%;
+  border-color:#c1c1c1;
+  background-color:#c1c1c1;
+}
+
 /*Header Styling*/
 .navbar {
   background-image:url('../img/bg.png');
@@ -126,7 +133,47 @@ p {
     background-color:navy;
 }
 
+.menubookingbutton {
+  position:fixed;
+  bottom:0px;
+  right:0px;
+  width:120px;
+  height:20px;
+  border:2px solid black;
+  border-bottom:0px;
+  border-right:0px;
+  border-radius:5px;
+  background-color:#962835;
+  margin: 0px auto;
+  text-align:center;
+  font-family:"Lato";
+  color:#fff;
+  font-size:15px;
+  text-decoration:none;
+  line-height:16px;
+}
 
+.menubookingbutton:hover {
+  color:black;
+}
+
+.menubookingbutton:active {
+    background-color:navy;
+}
+
+.backtotop {
+    float:right;
+    font-size:0.75em;
+    font-family:"Lato";
+    color:#283747;
+    margin-top: -30px;
+}
+
+.backtotop:hover {
+  color:#AED6F1;
+}
+
+/*Index Content Styling*/
 .welcome {
   text-align:center;
   vertical-align:middle;
@@ -163,6 +210,106 @@ p {
 .event .date {
   margin-bottom: 7px;
   color: #2a6496;
+}
+
+/*Classes Page Styling*/
+.classtitle {
+  font-size:30px;
+  font-family:"Lato";
+  margin-top:-10px;
+  margin-bottom:20px;
+  text-decoration: underline;
+}
+
+.trapezepic {
+  display:block;
+  width:90%;
+  margin:auto;
+}
+
+.trapezeclass {
+  padding:10px;
+  font-family:"Lato";
+  text-align:justify;
+}
+
+.row2 {
+  width:85%;
+  margin-left: auto;
+  margin-right:auto;
+}
+
+.silkspic {
+  float:left;
+  margin-bottom:20px;
+}
+
+.silksclass {
+  float:right;
+  text-align: justify;
+  font-family:"Lato";
+  margin-bottom:20px;
+}
+
+.lyrapic {
+  margin-bottom:20px;
+  text-align:right;
+}
+
+.lyraclass {
+  float:left;
+  text-align:justify;
+  font-family:"Lato";
+}
+
+.staticpic {
+  float:left;
+  margin-bottom:20px;
+}
+
+.staticclass {
+  float:right;
+  text-align: justify;
+  font-family:"Lato";
+}
+
+.groundtitle {
+  display:block;
+  position:relative;
+  top:10px;
+  font-weight:bold;
+  font-size:1.5em;
+  font-family:"Lato";
+
+*/}
+
+.grounddescription {
+  text-align: justify; 
+  font-family:"Lato";
+  margin-bottom:20px;
+  padding:20px;
+}
+
+/*Classes Page Adjustment for XS Screens*/
+@media (max-width: 767px){
+  .silkspic {
+    float:none;
+    text-align:center;
+  }
+
+  .lyrapic {
+    float:none;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:20px;
+    margin-left:0px;
+    margin-right:0px;
+  }
+
+  .staticpic {
+    float:none;
+    text-align:center;
+  }
 }
 
 /* Colophon Section */
