@@ -166,7 +166,6 @@ hr {
     font-size:0.75em;
     font-family:"Lato";
     color:#283747;
-    margin-top: -30px;
 }
 
 .backtotop:hover {
@@ -248,7 +247,6 @@ hr {
   float:right;
   text-align: justify;
   font-family:"Lato";
-  margin-bottom:20px;
 }
 
 .lyrapic {
@@ -280,14 +278,16 @@ hr {
   font-weight:bold;
   font-size:1.5em;
   font-family:"Lato";
-
 */}
 
 .grounddescription {
   text-align: justify; 
   font-family:"Lato";
-  margin-bottom:20px;
-  padding:20px;
+  margin-bottom:10px;
+  padding-top:20px;
+  padding-left:0px;
+  padding-right:0px;
+  padding-bottom:0px;
 }
 
 /*Classes Page Adjustment for XS Screens*/
@@ -309,6 +309,9 @@ hr {
   .staticpic {
     float:none;
     text-align:center;
+  }
+  .staticclass{
+    padding:0px;
   }
 }
 
