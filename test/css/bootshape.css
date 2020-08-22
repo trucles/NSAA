@@ -57,22 +57,9 @@ hr {
 
 /* Navbar & Menu for XS Screens */
 .logo-xs {
-  width:340px;
+  width:225px;
   position:block;
   margin:5px auto 0px auto;
-}
-
-.logo-xs2 {
-  width:271px;
-  position:block;
-  margin:5px auto 0px auto;
-}
-
-.logo-xs3 {
-  width:438px;
-  position:block;
-  margin:5px auto 0px auto;
-
 }
   
 .menuxs {
