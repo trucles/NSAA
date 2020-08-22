@@ -37,11 +37,11 @@ hr {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color:#962835;
+  color:#B54D5B;
 }
 
 .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
-  color:#962835;
+  color:#B54D5B;
 }
 
 .navbar-brand {
@@ -57,9 +57,22 @@ hr {
 
 /* Navbar & Menu for XS Screens */
 .logo-xs {
-  width:230px;
+  width:340px;
   position:block;
   margin:5px auto 0px auto;
+}
+
+.logo-xs2 {
+  width:271px;
+  position:block;
+  margin:5px auto 0px auto;
+}
+
+.logo-xs3 {
+  width:438px;
+  position:block;
+  margin:5px auto 0px auto;
+
 }
   
 .menuxs {
@@ -107,7 +120,7 @@ hr {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #962835;
+  background-color: #B54D5B;
   overflow-x: hidden;
   padding-top: 20px;
   margin-top:70px;
@@ -179,7 +192,7 @@ hr {
   height:50px;
   border:2px solid black;
   border-radius:5px;
-  background-color:#962835;
+  background-color:#B54D5B;
   margin: 0px auto;
   text-align:center;
   font-family:"Lato";
@@ -210,7 +223,7 @@ hr {
   border-bottom:0px;
   border-right:0px;
   border-radius:5px;
-  background-color:#962835;
+  background-color:#B54D5B;
   margin: 0px auto;
   text-align:center;
   font-family:"Lato";
@@ -233,7 +246,10 @@ hr {
     float:right;
     font-size:0.75em;
     font-family:"Lato";
-    color:#283747;
+}
+
+.backtotop a {
+  color:#252663;
 }
 
 .backtotop:hover {
@@ -293,17 +309,17 @@ hr {
 }
 
 /*Classes Page Styling*/
-.banner {
+.banners {
   height:20px;
   width: 100%;
   margin-bottom:15px;
-    background-color:#962835;
+  background-color:#B54D5B;
   text-align:center;
 }
 
 .btn {
-  background-color:#962835;
-  border:1px black;
+  background-color:#B54D5B;
+  border:none;
   display:block;
   margin-left: auto;
   margin-right: auto;
@@ -311,16 +327,65 @@ hr {
   margin-bottom:20px;
 }
 
+.btn-info {
+  border:none;
+}
+
+.btn-info:active:hover, .btn-info.active:hover, .open > .dropdown-toggle.btn-info:hover, .btn-info:active:focus, .btn-info.active:focus, .open > .dropdown-toggle.btn-info:focus, .btn-info:active.focus, .btn-info.active.focus,
+.open > .dropdown-toggle.btn-info.focus {
+  background-color: #873695;
+  border:none;
+}
+
+.btn-info:hover {
+  background-color:#b890bf;
+  border:none  
+}
+
+.btn:active {
+  background-color:#873695;
+  border:none;
+}
+
 .btn-info:focus {
-  background-color:#962835;	
+  background-color:#B54D5B;
+  border:none;
+}
+
+.collapsed:hover {
+  background-color:#b890bf;
+  border:none;
+}
+
+.btn-info.active:hover {
+  background-color:#b890bf;
+  border:none;
+}
+
+.btn-info:active:focus {
+  background-color:#873695;
+  border:none;
 }
 
 .classtitle {
   font-size:30px;
   font-family:"Lato";
-  margin-top:-10px;
+  margin-top:0px;
   margin-bottom:20px;
   text-decoration: underline;
+  color:black;
+}
+
+@media (max-width:767px) {
+  .classtitle {
+   font-size:30px;
+   font-family:"Lato";
+   margin-top:0px;
+   margin-bottom:20px;
+   text-decoration: underline;
+   background-color:#B54D5B;
+   color:white;
+  }
 }
 
 .classdetails {
@@ -464,13 +529,13 @@ hr {
 
 /* Colophon Section */
 .colophon {
-  background-color:#962835;
+  background-color:#B54D5B;
   text-align:center;
 }
 
 .contact {
   display:inline-block;
-  background-color:#962835;
+  background-color:#B54D5B;
   color:white;
   line-height:40px;
   font-size:0.9em;
@@ -480,7 +545,7 @@ hr {
 .social {
   float:right;
   display:inline-block;
-  background-color:#962835;
+  background-color:#B54D5B;
   color:white;
   line-height:40px;
   font-size:0.9em;
@@ -490,7 +555,7 @@ hr {
 .colophon-icon {
   background-color: #ffffff;
   border-radius: 50%;
-  color: #962835;
+  color: #B54D5B;
   display: inline-block;
   width: 30px;
   height: 30px;
