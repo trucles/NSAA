@@ -57,7 +57,7 @@ hr {
 
 /* Navbar & Menu for XS Screens */
 .logo-xs {
-  width:225px;
+  width:273px;
   position:block;
   margin:5px auto 0px auto;
 }
@@ -610,7 +610,6 @@ hr {
 
 .faqbody {
   background-image: url('../img/faqbackground.jpg');
-  height:100%;
   min-height:850px;
   margin-bottom:0px;
   background-position: center;
