@@ -324,7 +324,7 @@ hr {
   border:none;
 }
 
-.btn-info:hover {
+.btn-info:hover, .btn-primary:hover {
   background-color:#b890bf;
   border:none  
 }
@@ -334,7 +334,7 @@ hr {
   border:none;
 }
 
-.btn-info:focus {
+.btn-info:focus, .btn-primary:focus {
   background-color:#B54D5B;
   border:none;
 }
@@ -344,12 +344,12 @@ hr {
   border:none;
 }
 
-.btn-info.active:hover {
+.btn-info.active:hover, .btn-primary.active:hover {
   background-color:#b890bf;
   border:none;
 }
 
-.btn-info:active:focus {
+.btn-info:active:focus, .btn-primary:active:focus {
   background-color:#873695;
   border:none;
 }
@@ -674,4 +674,40 @@ hr {
 .waiver {
 	background-image:url('../img/sample.jpg');
 	height:100%;
+}
+
+.eventspic {
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom: 10px;
+}
+
+.eventsblurb {
+  width:70%;
+  text-align:center;
+  margin:auto;
+}
+
+.events table {
+  min-height:50px;
+  font-size:1.2em;
+  text-align:center;
+  width:100%;
+  background-color:#B54D5B;
+  margin-bottom:20px;
+  margin-right:-10px;
+}
+
+.events td, .events td a {
+  color:white;
+  text-align:center;
+  vertical-align:middle;
+  margin-left:10px;
+}
+
+@media (max-width:767px) {
+  .events table {
+    display:none;
+  }
 }
