@@ -1,3 +1,24 @@
+/*
+TEMPLATE
+Name: Zoo Planet
+Version: 1.0
+Created: 23 January 2014
+
+AUTHOR
+Design and code by: http://www.bootshape.com
+Free stock photos by: http://www.bootshape.com
+
+Read full license: http://www.bootshape.com/license.php
+
+CREDITS
+Background: http://subtlepatterns.com/ (extra_clean_paper)
+Fonts: http://www.google.com/fonts (Actor, Duru_Sans)
+
+SUPPORT
+E-mail: bootshape.com@gmail.com
+Contact: http://www.bootshape.com/contact.php
+*/
+
 * {
   box-sizing: border-box;
 }
@@ -327,6 +348,10 @@ hr {
 .btn-info:hover, .btn-primary:hover {
   background-color:#b890bf;
   border:none  
+}
+
+.btn-info:active, .btn-info.active, .open > .dropdown-toggle.btn-info {
+  background-color:#B54D5B;
 }
 
 .btn:active {
@@ -678,6 +703,7 @@ hr {
 
 .eventspic {
   display:block;
+  width:80%;
   margin-left:auto;
   margin-right:auto;
   margin-bottom: 10px;
@@ -685,6 +711,7 @@ hr {
 
 .eventsblurb {
   width:70%;
+  font-size:1.5em;
   text-align:center;
   margin:auto;
 }
@@ -710,4 +737,12 @@ hr {
   .events table {
     display:none;
   }
+}
+
+.pricingtitle {
+  font-family:'Lato', sans-serif;
+  font-size:30pt;
+  color:white;
+  background-color:#B54D5B;
+  margin:30px;
 }
